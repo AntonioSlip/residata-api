@@ -354,7 +354,7 @@ $residencias = $stmt_res->fetchAll(PDO::FETCH_ASSOC);
 // PDF
 // ==========================================
 
-$pdf_url = "http://localhost/residata/api/dashboard_pdf.php?codemp={$codemp}&codfil={$codfil}&mes={$mes}&idresidenc={$idresidenc}";
+$pdf_url = "http://localhost/residata-api/api/dashboard_pdf.php?codemp={$codemp}&codfil={$codfil}&mes={$mes}&idresidenc={$idresidenc}";
 
 // ==========================================
 // RESPOSTA FINAL
